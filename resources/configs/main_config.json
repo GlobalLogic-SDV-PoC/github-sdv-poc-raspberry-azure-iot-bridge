@@ -1,0 +1,13 @@
+{
+    "ipc": {
+        "port": 5555,
+        "max_listen_connections": 2147483647,
+        "reuse_address": true,
+        "enable_connection_aborted": false,
+        "header_buffer_size": 2000,
+        "body_buffer_size": 5000
+    },
+    "iot": {
+        "connection_string": "HostName=SDV-DEMO-HUB.azure-devices.net;DeviceId=SDV-DEMO-DEVICE;SharedAccessKey=HMn6bAwbeFzqh9eJWf/jorFn+2n4MeApUAIoTNkEHpk="
+    }
+}
