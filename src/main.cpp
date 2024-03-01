@@ -9,7 +9,7 @@ using namespace std::chrono_literals;
 int main()
 {
     auto azure_client = std::make_shared<azure_iot::ClientIot>();
-    std::ifstream config_file("/var/config/azure_config.json");
+    std::ifstream config_file("/var/config/main_config.json");
 
     iotb::App app(azure_client,
                   nlohmann::json::parse(config_file));

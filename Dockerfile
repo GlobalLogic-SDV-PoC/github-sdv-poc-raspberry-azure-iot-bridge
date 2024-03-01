@@ -12,7 +12,7 @@ RUN apk add --no-cache libstdc++ openssl libcurl
 
 ADD ./resources/security /var/security
 
-ADD ./resources/configs /var/configs
+ADD ./resources/configs /var/config
 
 COPY --from=base /var/work/build-folder/azure_iot_bridge_app /usr/local/bin/
 
